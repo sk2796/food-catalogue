@@ -1,0 +1,12 @@
+#spring.application.name=foodcatalogue
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/restaurantdb
+    username: postgres
+    password: 12345678
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
